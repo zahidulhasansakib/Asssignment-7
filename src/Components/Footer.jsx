@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="text-left md:text-center text-sm mt-8">
           © 2025 CS — Ticket System. All rights reserved.
-          <br className="block md:hidden" /> All rights reserved.
+          <br className="block md:hidden" /> All rights reserved......
         </div>
       </footer>
     );
