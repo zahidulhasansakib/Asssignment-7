@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 // Sample tickets
 const tickets = [
   {
-    id: 1001,
+    id: 10012,
     title: "Login Issues - Can't Access Account",
     description:
       "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
@@ -18,7 +18,7 @@ const tickets = [
     createdAt: "2025-09-25",
   },
   {
-    id: 1002,
+    id: 10034,
     title: "Payment Failed - Card Declined",
     description:
       "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
