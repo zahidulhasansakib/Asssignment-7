@@ -165,9 +165,9 @@ const MainSection = () => {
               <div className="space-y-4 p-4 border-l rounded-md shadow-md bg-green-100">
                 <h2 className="font-bold text-lg mb-4">Resolved Tasks</h2>
                 {resolved.length === 0 ? (
-                  <p className="text-gray-500">No resolved tasks yet</p>
+                  <p className="text-gray-500">No resolved tasks yet</p>     
                 ) : (
-                  resolved.map((ticket) => (
+                  resolved.map((ticket) => (     
                     <div
                       key={ticket.id}
                       className="w-full shadow-md rounded-lg p-4 bg-green-100 flex flex-col gap-2">
